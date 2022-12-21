@@ -1,4 +1,4 @@
-import { Get, Injectable } from "@nestjs/common";
+import { Body, Get, Injectable, Post } from "@nestjs/common";
 
 @Injectable()
 export class QuizService {
